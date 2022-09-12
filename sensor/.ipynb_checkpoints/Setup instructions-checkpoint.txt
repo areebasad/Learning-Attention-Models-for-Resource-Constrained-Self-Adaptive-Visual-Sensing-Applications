@@ -1,0 +1,26 @@
+This guide includes following sections.
+
+A. How to setup cloud inference 
+B. How to setup local inference
+
+
+
+A. To setup cloud inference
+
+1. Make sure to have the following 3 files in the same directory:
+"yolo_grpc_client.py", 
+"yolov5_service_pb2_grpc.py",
+"yolov5_service_pb2.py"
+
+2. Check port number
+
+
+
+
+
+B. To setup local inference
+
+1. Check and clone requirements file -> https://github.com/ultralytics/yolov5
+2. Install requirements
+pip install -r requirements.txt  # install
+
